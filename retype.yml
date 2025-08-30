@@ -1,0 +1,12 @@
+input: .
+output: .retype
+url: http://workstation
+start:
+  pro: true
+branding:
+  title: Baby Notebook
+breadcrumb:
+  enabled: true
+  home: ":icon-home:"
+cache:
+  strategy: none
