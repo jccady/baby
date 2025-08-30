@@ -2,6 +2,22 @@
 label: Birth Plan
 ---
 
+<style>
+  h1 {
+    border-bottom: 2px solid #cecece;
+    margin-bottom: 10px;
+  }
+  h2 {
+    margin-top: 30px;
+    margin-bottom: 0;
+    background-color: #80b3ff;
+    border-radius: 4px;
+  }
+  h2 > span {
+    color: #e6e6e6;
+  }
+</style>
+
 # Birth Plan
 |      |      |      |      |      |     | {.compact}
 | :--- | :--- | ---: | :--- | ---- | --- |
@@ -137,11 +153,24 @@ videography &nbsp;&nbsp; <input type="checkbox"> yes &nbsp;&nbsp;&nbsp;&nbsp;&nb
 **keep placenta:** &nbsp;&nbsp; <input type="checkbox"> yes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox"> no  
 
 ## For Baby
+**first bath:** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox"> yes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" checked> no  
+**circumsion:** &nbsp;&nbsp; <input type="checkbox"> yes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" checked> no  
+**nursery:** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox"> yes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" checked> no  
+
+### Delayed Clamping
+<input type="checkbox" checked> yes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox"> no  
+
 ### Skin-to-skin
+<input type="checkbox" checked> Mom first &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox"> Dad first &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox"> No preference
 
 ### Vaccinations
+**Hepatitus B:** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                   <input type="checkbox"> yes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" checked> no  
+**Vitamin K:** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <input type="checkbox"> yes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" checked> no  
+**Erythromycin:** &nbsp;&nbsp;                                          <input type="checkbox"> yes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" checked> no  
 
 ### Feeding
+<input type="checkbox" checked> breastfeeding  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox"> bottle: donor milk &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="checkbox"> bottle formula &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox"> combination 
 
 
 ## In Event of C-Section
