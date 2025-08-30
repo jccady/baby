@@ -1,10 +1,16 @@
 input: .
 output: .retype
 url: http://workstation
+poweredByRetype: false
 start:
   pro: true
 branding:
   title: Baby Notebook
+outbound:
+  enabled: true
+  custom: 'rel="noopener noreferrer"'
+  icon: link-external
+  target: blank
 breadcrumb:
   enabled: true
   home: ":icon-home:"

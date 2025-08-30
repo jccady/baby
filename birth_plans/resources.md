@@ -13,3 +13,4 @@ label: Decision Resources
 ### Fetal Monitoring
 - [Continuous Electronic Fetal Monitoring during Labor](https://pubmed.ncbi.nlm.nih.gov/29527573)
 - [A half century of electronic fetal monitoring and bioethics](https://pubmed.ncbi.nlm.nih.gov/29201387/)
+- [Weekly oral vitamin K prophylaxis in Denmark](https://pubmed.ncbi.nlm.nih.gov/12892158/)
