@@ -16,3 +16,5 @@ breadcrumb:
   home: ":icon-home:"
 cache:
   strategy: none
+meta:
+  title: " | Baby Notebook"
