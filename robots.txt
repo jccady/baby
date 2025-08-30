@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://workstation/sitemap.xml.gz
