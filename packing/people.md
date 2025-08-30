@@ -1,8 +1,8 @@
 ---
-label: Packing Lists
+label: People
+order: 10
 ---
 
-# Packing Lists
 
 ||| Mom
 - [ ] ID
@@ -32,7 +32,10 @@ label: Packing Lists
 - [ ] bath towel
 - [ ] phone charging cord
 - [ ] water bottle
+- [ ] gum
+
 ||| Dad
+- [ ] ID
 
 ||| Baby
 
