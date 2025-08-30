@@ -26,7 +26,6 @@ order: 10
 - [ ] socks
 - [ ] comfy cloths for going home
 - [ ] nipple balm / silverettes
-- [ ] white noise machine
 - [ ] nightlight
 - [ ] pillow
 - [ ] bath towel
@@ -38,5 +37,8 @@ order: 10
 - [ ] ID
 
 ||| Baby
+
+||| Stuff
+- [ ] white noise machine
 
 |||
