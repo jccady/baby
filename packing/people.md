@@ -24,7 +24,7 @@ order: 10
 - [ ] robe
 - [ ] slip-on shoes
 - [ ] socks
-- [ ] comfy cloths for going home
+- [ ] going home cloths
 - [ ] nipple balm / silverettes
 - [ ] nightlight
 - [ ] pillow
