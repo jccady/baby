@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.810189950451">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.810341940620">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -11,30 +11,30 @@
     <!-- Primary Meta Tags -->
     <title>Birth Plan | Baby Notebook</title>
     <meta name="title" content="Birth Plan | Baby Notebook">
-    <meta name="description" content="Patient">
+    <meta name="description" content="Anemia">
 
     <!-- Canonical -->
-    <link rel="canonical" href="http://workstation/birth_plans/build/">
+    <link rel="canonical" href="http://workstation/birth_plans/birthplan/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://workstation/birth_plans/build/">
+    <meta property="og:url" content="http://workstation/birth_plans/birthplan/">
     <meta property="og:title" content="Birth Plan | Baby Notebook">
-    <meta property="og:description" content="Patient">
+    <meta property="og:description" content="Anemia">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="http://workstation/birth_plans/build/">
+    <meta property="twitter:url" content="http://workstation/birth_plans/birthplan/">
     <meta property="twitter:title" content="Birth Plan | Baby Notebook">
-    <meta property="twitter:description" content="Patient">
+    <meta property="twitter:description" content="Anemia">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.11.0.810189950451" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.810341940620" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.810189950451" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.810341940620" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.810189950451" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.810341940620" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -163,6 +163,28 @@
   h2 > span {
     color: #e6e6e6;
   }
+
+  input[type=checkbox]:before {
+    font-family: "FontAwesome";
+    content: "\f00c";
+    font-size: 15px;
+    color: transparent !important;
+    background: #fef2e0;
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    margin-right: 7px;
+  }
+
+  table.header.compact {
+    width: 60%;
+  }
+  table.header.compact > tbody > tr > th {
+    text-align: right;
+  }
+  table.header.compact > tbody > tr > td {
+    border-bottom: 1px solid black;
+  }
 </style>
 <doc-anchor-target id="birth-plan" class="break-words">
     <h1>
@@ -170,38 +192,22 @@
         <span>Birth Plan</span>
     </h1>
 </doc-anchor-target>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="compact">
-<thead>
-<tr>
-<th style="text-align: left;"></th>
-<th style="text-align: left;"></th>
-<th style="text-align: right;"></th>
-<th style="text-align: left;"></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><strong>Patient</strong></td>
-<td style="text-align: left;">Heather Cady</td>
-<td style="text-align: right;"><strong>Ob-Gyn</strong></td>
-<td style="text-align: left;">Solange Wyatt, MD</td>
-<td></td>
-<td>                                      </td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Ob-Gyn Clinic</strong></td>
-<td style="text-align: left;">KP Sunnyside Perinatology</td>
-<td style="text-align: right;"><strong>Phone</strong></td>
-<td style="text-align: left;">503-813-2000</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
+<table class="header compact">
+  <tbody>
+    <tr>
+      <th style="width: 120px;">Patient</th>
+      <td>Heather Cady</td>
+      <th>Ob-Gyn</th>
+      <td>Solange Wyatt, MD</td>
+    </tr>
+    <tr>
+      <th style="width: 80px;">Ob-Gyn Clinic</th>
+      <td>KP Sunnyside Perinatology</td>
+      <th>Phone</th>
+      <td>503-813-2000</td>
+    </tr>
+  </tbody>
 </table>
-</div>
 <doc-anchor-target id="medical-conditions">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#medical-conditions">#</doc-anchor-trigger>
@@ -484,8 +490,14 @@
         <span>Media</span>
     </h3>
 </doc-anchor-target>
-<p>photography    <input type="checkbox"> yes       <input type="checkbox"> no<br />
-videography    <input type="checkbox"> yes       <input type="checkbox"> no</p>
+<ul class="contains-task-list">
+  <li class="task-list-item">
+    photography &nbsp;&nbsp; <input type="checkbox" disabled> yes &nbsp;&nbsp; <input type="checkbox" disabled> no
+  </li>
+  <li class="task-list-item">
+    videography &nbsp;&nbsp; <input type="checkbox" disabled> yes &nbsp;&nbsp; <input type="checkbox" disabled> no
+  </li>
+</ul>
 <doc-anchor-target id="delivery">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#delivery">#</doc-anchor-trigger>
@@ -558,50 +570,139 @@ videography    <input type="checkbox"> yes       <input type="checkbox"> 
 </ul>
     </div>
 </div>
-<p><strong>warm compress on perineum:</strong>    <input type="checkbox"> yes       <input type="checkbox"> no<br />
-<strong>episiotomy</strong>    <input type="checkbox"> yes       <input type="checkbox"> no       <input type="checkbox"> no preference<br />
-<strong>cord blood banking:</strong>    <input type="checkbox"> yes       <input type="checkbox"> no        <input type="checkbox"> no preference<br />
-<strong>keep placenta:</strong>    <input type="checkbox"> yes       <input type="checkbox"> no</p>
+<ul class="contains-task-list">
+  <li class="task-list-item">
+    <table class="compact" style="width:50%;">
+      <tr>
+        <th class="width: 100px;">warm compress on perineum</th>
+        <td><input type="checkbox">yes</td>
+        <td><input type="checkbox">no</td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>episiotomy</th>
+        <td><input type="checkbox">yes</td>
+        <td><input type="checkbox">no</td>
+        <td><input type="checkbox">no preference</td>
+      </tr>
+      <tr>
+        <th>cord blood banking</th>
+        <td><input type="checkbox">yes</td>
+        <td><input type="checkbox">no</td>
+        <td><input type="checkbox">no preference</td>
+      </tr>
+      <tr>
+        <th>keep placenta</th>
+        <td><input type="checkbox">yes</td>
+        <td><input type="checkbox">no</td>
+        <td></td>
+      </tr>
+    </table>
+  </li>
+</ul>
 <doc-anchor-target id="for-baby">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#for-baby">#</doc-anchor-trigger>
         <span>For Baby</span>
     </h2>
 </doc-anchor-target>
-<p><strong>first bath:</strong>       <input type="checkbox"> yes       <input type="checkbox" checked> no<br />
-<strong>circumsion:</strong>    <input type="checkbox"> yes       <input type="checkbox" checked> no<br />
-<strong>nursery:</strong>          <input type="checkbox"> yes       <input type="checkbox" checked> no</p>
-<doc-anchor-target id="delayed-clamping">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#delayed-clamping">#</doc-anchor-trigger>
-        <span>Delayed Clamping</span>
-    </h3>
-</doc-anchor-target>
-<p><input type="checkbox" checked> yes       <input type="checkbox"> no</p>
+<ul class="contains-task-list">
+  <li class="task-list-item">
+    <table class="compact" style="width:40%;">
+      <tr>
+        <th class="width: 120px;">first bath</th>
+        <td><input type="checkbox">yes</td>
+        <td><input type="checkbox">no</td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>nursery</th>
+        <td><input type="checkbox">yes</td>
+        <td><input type="checkbox">no</td>
+      </tr>
+      <tr>
+        <th>delayed clamping</th>
+        <td><input type="checkbox">yes</td>
+        <td><input type="checkbox">no</td>
+      </tr>
+    </table>
+  </li>
+</ul>
 <doc-anchor-target id="skin-to-skin">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#skin-to-skin">#</doc-anchor-trigger>
         <span>Skin-to-skin</span>
     </h3>
 </doc-anchor-target>
-<p><input type="checkbox" checked> Mom first       <input type="checkbox"> Dad first       <input type="checkbox"> No preference</p>
+<ul class="contains-task-list">
+  <li class="task-list-item">
+    <table class="compact" style="width: 20%;">
+      <tr>
+        <th class="width: 50px;">Mom first</th>
+        <td class="width: 20px;"><input type="checkbox"></td>
+      </tr>
+      <tr>
+        <th class="width: 50px;">Dad first</th>
+        <td class="width: 20px;"><input type="checkbox"></td>
+      </tr>
+      <tr>
+        <th class="width: 120px;">No Preference</th>
+        <td class="width: 20px;"><input type="checkbox"></td>
+      </tr>
+    </table>
+  </li>
+</ul>
 <doc-anchor-target id="vaccinations">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#vaccinations">#</doc-anchor-trigger>
         <span>Vaccinations</span>
     </h3>
 </doc-anchor-target>
-<p><strong>Hepatitus B:</strong>                          <input type="checkbox"> yes       <input type="checkbox" checked> no<br />
-<strong>Vitamin K:</strong>             <input type="checkbox"> yes       <input type="checkbox" checked> no<br />
-<strong>Erythromycin:</strong>                                             <input type="checkbox"> yes       <input type="checkbox" checked> no</p>
+<ul class="contains-task-list">
+  <li class="task-list-item">
+    <table class="compact" style="width: 30%;">
+      <tr>
+        <th class="width: 50px;">Hepatitus B</th>
+        <td class="width: 10px;"><input type="checkbox">Yes</td>
+        <td class="width: 10px;"><input type="checkbox" checked>No</td>
+      </tr>
+      <tr>
+        <th class="width: 50px;">Vitamin K</th>
+        <td class="width: 10px;"><input type="checkbox">Yes</td>
+        <td class="width: 10px;"><input type="checkbox" checked>No</td>
+      </tr>
+      <tr>
+        <th class="width: 120px;">Erythromycin</th>
+        <td class="width: 10px;"><input type="checkbox">Yes</td>
+        <td class="width: 10px;"><input type="checkbox" checked>No</td>
+      </tr>
+    </table>
+  </li>
+</ul>
 <doc-anchor-target id="feeding">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#feeding">#</doc-anchor-trigger>
         <span>Feeding</span>
     </h3>
 </doc-anchor-target>
-<p><input type="checkbox" checked> breastfeeding        <input type="checkbox"> bottle: donor milk      
-<input type="checkbox"> bottle formula       <input type="checkbox"> combination</p>
+<ul class="contains-task-list">
+  <li class="task-list-item">
+    <table class="compact" style="width: 60%;">
+      <tr>
+        <th class="width: 50px;">breastfeeding</th>
+        <td class="width: 10px;"><input type="checkbox">Yes</td>
+        <th class="width: 50px;">bottle: donor milk</th>
+        <td class="width: 10px;"><input type="checkbox">Yes</td>
+      </tr>
+      <tr>
+        <th class="width: 50px;">bottle formula</th>
+        <td class="width: 10px;"><input type="checkbox">Yes</td>
+        <th class="width: 50px;">combination</th>
+        <td class="width: 10px;"><input type="checkbox">No</td>
+      </tr>
+    </table>
+  </li>
+</ul>
 <doc-anchor-target id="in-event-of-c-section">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#in-event-of-c-section">#</doc-anchor-trigger>
