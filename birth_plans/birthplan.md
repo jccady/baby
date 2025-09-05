@@ -30,7 +30,7 @@ label: Birth Plan
   }
 
   table.header.compact {
-    width: 60%;
+    width: 80%;
   }
   table.header.compact > tbody > tr > th {
     text-align: right;
@@ -44,7 +44,7 @@ label: Birth Plan
 <table class="header compact">
   <tbody>
     <tr>
-      <th style="width: 120px;">Patient</th>
+      <th style="width: 150px;">Patient</th>
       <td>Heather Cady</td>
       <th>Ob-Gyn</th>
       <td>Solange Wyatt, MD</td>
